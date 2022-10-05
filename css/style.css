@@ -1,5 +1,40 @@
+    /* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+    /* left-bar */
+
+.flex-container {
+    display: flex;
+}
+
+.left-bar{
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    width: 15rem;
+    height: 100vh;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+}
+
+.img-logo {
+    flex: 1 1 100%;
+    padding: 1.1rem;
+}
+
+.img-size {
+    width: 15%;
 }
