@@ -13,6 +13,8 @@ img {
 
 .flex-container {
     display: flex;
+    background-color: #141922;
+    height: calc(100vh - 10vh);
 }
 
 .left-bar{
@@ -22,7 +24,7 @@ img {
     background-color: black;
     color: lightgrey;
     width: 15rem;
-    height: 100vh;
+    height: 90vh;
 }
 
 .left-bar-top {
@@ -96,4 +98,18 @@ img {
     margin-right: 1rem;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.bar-battom{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: #282828;
+    z-index: 10;
+}
+
+.container {
+    height: 100%;
+    overflow-y: auto;
 }
