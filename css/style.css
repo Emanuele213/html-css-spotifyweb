@@ -17,24 +17,83 @@ img {
 
 .left-bar{
     display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: black;
+    color: lightgrey;
+    width: 15rem;
+    height: 100vh;
+}
+
+.left-bar-top {
+    display: flex;
     align-content: flex-start;
     flex-wrap: wrap;
     background-color: black;
-    color: white;
-    width: 15rem;
-    height: 100vh;
+    color: lightgrey;
+}
+
+.container-logo {
+    display: flex;
 }
 
 .image-container {
     display: flex;
     align-items: center;
+    padding: 0.5rem 1rem;
+    color: lightgrey
 }
 
 .img-logo {
-    flex: 1 1 100%;
+    flex: 1 0 100%;
     padding: 1.1rem;
 }
 
 .img-size {
     width: 15%;
+}
+
+.text-playlist {
+
+    padding: 0.5rem 1rem;
+}
+
+.icon-size {
+    font-size: 1rem;
+    color: black;
+    background: lightgrey;
+    padding: .5rem .5rem;
+}
+
+.fix-bug-flex {
+    flex: 1 1 100%;
+    padding: 0.5rem 1rem;
+}
+
+.left-bar-bottom {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-bar-bottom .icon-size {
+    font-size: 6px;
+    background-color: black;
+    color: lightgray;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+}
+
+.line-size {
+    border-color: lightgrey;
+    width: 100%;
+    flex: 1 1 100%;
+    margin: 0.5rem 1rem;
+}
+
+.img-user {
+    background-color: #808080;
+    width: 24px;
+    margin-right: 1rem;
+    border-radius: 50%;
+    object-fit: cover;
 }
