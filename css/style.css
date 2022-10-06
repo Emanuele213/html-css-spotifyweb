@@ -100,16 +100,118 @@ img {
     object-fit: cover;
 }
 
-.bar-battom{
+    /* .main-container album  */
+
+.main-container {
+    height: 100%;
+    overflow-y: auto;
+    padding-top: 7.5rem;
+    z-index: 20;
+}
+
+.upgrade-bar {
+    background-color: rgba(8, 11, 18, .5);
+    width: calc(100% - 15rem);
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+.upgrade-bar .btn {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(8, 11, 18, .5);
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: 1rem 1rem;
+}
+
+.upgrade-bar .btn:hover {
+    font-size: 1rem;
+}
+
+    /* bar-bottom pulsantiera */
+
+.bar-battom {
+    display: flex;
     position: absolute;
     bottom: 0;
     width: 100vw;
     height: 10vh;
     background-color: #282828;
     z-index: 10;
+    justify-content: space-between;
+    padding: 0 1rem;
+    color: lightgrey;
 }
 
-.container {
-    height: 100%;
-    overflow-y: auto;
+.bar-battom .image-container {
+    display: flex;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    width: 5.2%;
+}
+
+.img-bar-bottom {
+    width: 100%;
+    margin-right: .5rem;
+}
+
+.brano {
+    font-size: .6rem;
+    color: lightgrey;
+}
+
+.bar-battom .song-name {
+    font-size: 1rem;
+    color: white;
+}
+
+.add-song .icon-size {
+    margin-right: .5rem;
+    background-color: #282828;
+    color: lightgray;
+}
+
+.bar-battom .add-song {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.main-command-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+.command-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.command-bar .icon-size {
+    background-color: #282828;
+    margin-right: .5rem;
+    margin-top: .5rem;
+    font-size: 1.2rem;
+    color: lightgrey;
+}
+
+.main-command-bar .time-line {
+    display: flex;
+    align-items: center;
+    width: 20rem;
+    color: lightgrey;
+    background-color: lightgrey;
+    height: .4rem;
+    border-radius: 2rem;
+}
+
+.time-line .time {
+    position: relative;
+    margin: 0px -2.5rem;
 }
