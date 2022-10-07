@@ -10,7 +10,7 @@
 .flex-container {
     display: flex;
     background-color: #141922;
-    height: calc(100vh - 10vh);
+    height: calc(100vh - 5rem);
 }
 
 .left-bar{
@@ -20,7 +20,7 @@
     background-color: black;
     color: #5a5a5a;
     width: 15rem;
-    height: 90vh;
+    height: calc(100vh - 5rem);
 }
 
 .left-bar-top {
@@ -114,9 +114,10 @@
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    height: 100%;
+    height: calc(100vh - 5rem);
     overflow-y: auto;
     padding-top: 7.5rem;
+    padding-bottom: 2rem;
     color: #5a5a5a;
 }
 
@@ -175,6 +176,7 @@
     flex-wrap: wrap;
     width: 100%;
     gap: 1rem;
+    padding: 0 1rem;
 }
 
 .main-container-album {
@@ -185,7 +187,6 @@
 .main-container-album .image-container {
     display: flex;
     flex-direction: column;
-    flex: 1 1 15%;
     align-items: center;
 }
 
@@ -243,13 +244,13 @@
 
 .bar-battom {
     display: flex;
+    justify-content: space-between;
     position: absolute;
     bottom: 0;
     width: 100vw;
-    height: 10vh;
+    height: 5rem;
     background-color: #282828;
     z-index: 10;
-    justify-content: space-between;
     padding: 0 1rem;
     color: #5a5a5a;
 }
@@ -386,7 +387,7 @@
     background-color: lightgreen;
 }
 
-    /* layout-smarthphone-320px a 552 */
+    /* layout--320px a 552 */
 
 @media screen and (min-width: 320px) and (max-width: 552px) {
     .left-bar {
@@ -500,6 +501,8 @@
     }
 }
 
+    /* layout--553px a 639 */
+
 @media screen and (min-width: 553px) and (max-width: 639px) {
     .left-bar {
         width: 10rem;
@@ -570,3 +573,10 @@
         width: 1rem;
     }
 }
+
+    /* layout--878px */
+
+@media screen and (max-width: 878px) {
+    
+}
+
