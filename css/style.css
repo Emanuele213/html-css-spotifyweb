@@ -134,6 +134,7 @@
     justify-content: flex-end;
     align-items: center;
     padding: 0 1.5rem;
+    z-index: 20;
 }
 
 .upgrade-bar .btn {
@@ -492,6 +493,77 @@
 
     .right-command-bar .audio-line {
         width: 3rem;
+    }
+
+    .audio-line-white {
+        width: 1rem;
+    }
+}
+
+@media screen and (min-width: 553px) and (max-width: 639px) {
+    .left-bar {
+        width: 10rem;
+    }
+
+        /* main-container */
+
+    .album-container-basis {
+        justify-content: center;
+    }
+
+    .upgrade-bar {
+        width: calc(100vw - 10rem );
+    }
+
+        /* bar-bottom */
+    
+    .bar-battom .add-song {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-bottom {
+        width: 35px;
+        height: 35px;
+    }
+
+    .bottom-basis .image-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .add-song .icon-size {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .main-command-bar .time-line {
+        width: 10rem;
+    }
+
+    .command-bar .icon-size {
+        margin-right: 0rem; 
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        color: white;
+    }
+
+    .right-command-bar .icon-size {
+        margin-right: 0rem;
+        font-size: 1rem;
+    }
+
+    .time {
+        font-size: .6rem;
+    }
+
+    .bar-battom .right-command-bar {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .right-command-bar .audio-line {
+        width: 4rem;
     }
 
     .audio-line-white {
