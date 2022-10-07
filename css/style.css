@@ -18,7 +18,7 @@
     flex-wrap: wrap;
     align-content: space-between;
     background-color: black;
-    color: lightgrey;
+    color: #5a5a5a;
     width: 15rem;
     height: 90vh;
 }
@@ -28,7 +28,7 @@
     align-content: flex-start;
     flex-wrap: wrap;
     background-color: black;
-    color: lightgrey;
+    color: #5a5a5a;
 }
 
 .container-logo {
@@ -39,7 +39,7 @@
     display: flex;
     align-items: center;
     padding: 0.5rem 1rem;
-    color: lightgrey
+    color: #5a5a5a
 }
 
 .img-logo {
@@ -59,7 +59,7 @@
 .icon-size {
     font-size: 1rem;
     color: black;
-    background: lightgrey;
+    background: #5a5a5a;
     padding: .5rem .5rem;
 }
 
@@ -77,12 +77,12 @@
     font-size: 6px;
     background-color: black;
     color: lightgray;
-    border: 1px solid lightgrey;
+    border: 1px solid #5a5a5a;
     border-radius: 50%;
 }
 
 .line-size {
-    border-color: lightgrey;
+    border-color: #5a5a5a;
     width: 100%;
     flex: 1 1 100%;
     margin: 0.5rem 1rem;
@@ -106,7 +106,11 @@
     overflow-y: auto;
     padding-top: 7.5rem;
     z-index: 20;
-    color: lightgrey;
+    color: #5a5a5a;
+}
+
+.main-container h1 {
+    color: white;
 }
 
 .upgrade-bar {
@@ -144,7 +148,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: lightgrey;
+    color: #5a5a5a;
     list-style: none;
 }
 
@@ -172,6 +176,7 @@
 }
 
 .main-container-album .image-container .song-name {
+    color: white;
     font-size: 1.3rem;
     margin-bottom: .5rem;
     width: 200px;
@@ -232,7 +237,7 @@
     z-index: 10;
     justify-content: space-between;
     padding: 0 1rem;
-    color: lightgrey;
+    color: #5a5a5a;
 }
 
 .bar-battom .image-container {
@@ -263,11 +268,15 @@
     
 }
 
+.add-song {
+    color: white;
+}
+
 .add-song .icon-size {
-   margin-left: 1.5rem;
-   margin-right: .5rem;
+    margin-left: 1.5rem;
+    margin-right: .5rem;
     background-color: #282828;
-    color: lightgray;
+    color: white;
 }
 
 .bar-battom .add-song {
@@ -296,26 +305,26 @@
     margin-right: .5rem;
     margin-top: .5rem;
     font-size: 1.2rem;
-    color: lightgrey;
+    color: white;
 }
 
 .main-command-bar .time-line {
     width: 20rem;
-    color: lightgrey;
-    background-color: lightgrey;
+    background-color: #5a5a5a;
     height: .4rem;
     border-radius: 2rem;
     margin: 0 .5rem;
 }
 
-.time-line .time {
-    position: relative;
-    margin: 0px -2rem;
+.time-line-white {
+    width: 5rem;
+    background-color: white;
+    height: .4rem;
+    border-radius: 2rem;
 }
 
-.time-line .time-two {
-    position: relative;
-    margin: 0px 23rem;
+.time-line-white:hover {
+    background-color: lightgreen;
 }
 
     /* right bar bottom */
@@ -329,13 +338,23 @@
     background-color: #282828;
     margin-right: .5rem;
     font-size: 1.2rem;
-    color: lightgrey;
+    color: white;
 }
 
 .right-command-bar .audio-line {
     width: 10rem;
-    color: lightgrey;
-    background-color: lightgrey;
+    background-color: #5a5a5a;
     height: .4rem;
     border-radius: 2rem;
+}
+
+.audio-line-white {
+    width: 3rem;
+    background-color: white;
+    height: .4rem;
+    border-radius: 2rem;
+}
+
+.audio-line-white:hover {
+    background-color: lightgreen;
 }
