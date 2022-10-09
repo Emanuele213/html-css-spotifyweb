@@ -35,6 +35,10 @@
     display: flex;
 }
 
+.shadow-text:hover {
+    color: white;
+}
+
 .left-bar-top .image-container {
     display: flex;
     align-items: center;
@@ -136,6 +140,10 @@
     align-items: center;
     padding: 0 1.5rem;
     z-index: 20;
+}
+
+ul li:hover {
+    color: white;
 }
 
 .upgrade-bar .btn {
@@ -393,7 +401,7 @@
     .left-bar {
         justify-content: center;
         width: 2rem;
-        height: 90vh;
+        height: calc(100vh - 5rem);
         padding: 0.5rem 0;
     }
 
@@ -579,4 +587,3 @@
 @media screen and (max-width: 878px) {
     
 }
-
